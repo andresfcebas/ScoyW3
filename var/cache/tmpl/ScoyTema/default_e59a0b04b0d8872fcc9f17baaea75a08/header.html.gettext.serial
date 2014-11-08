@@ -1,0 +1,12 @@
+a:15:{i:0;s:21:"Seagull Documentation";i:1;s:31:"var SGL_JS_WEBROOT          = "";i:2;s:40:"";
+        var SGL_JS_WINHEIGHT        =";i:3;s:39:";
+        var SGL_JS_WINWIDTH         =";i:4;s:41:";
+        var SGL_JS_SESSID           = "";i:5;s:42:"";
+        var SGL_JS_CURRURL          = "";i:6;s:42:"";
+        var SGL_JS_THEME            = "";i:7;s:85:"";
+        var SGL_JS_ADMINGUI         = "0";
+        var SGL_JS_DATETEMPLATE     = "";i:8;s:42:"";
+        var SGL_JS_URL_STRATEGY     = "";i:9;s:42:"";
+        var SGL_JS_FRONT_CONTROLLER = "";i:10;s:76:"if (typeof SGL2 != 'undefined') {
+            $(document).ready(function() {";i:11;s:51:"});
+        } else if (typeof SGL != 'undefined') {";i:12;s:11:"SGL.ready("";i:13;s:28:"window.onload = function() {";i:14;s:30:"window.onunload = function() {";}
