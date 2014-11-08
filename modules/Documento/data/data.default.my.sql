@@ -1,0 +1,2 @@
+--  module_id ||| is_configurable|||||||name||||title|||description|||admin_uri|||icon|||maintainers|||version|||license|||state
+INSERT INTO module VALUES ({SGL_NEXT_ID},1,'documento','Gestion de Documentos', 'Modulo para la gestion de documentos', '', '', 'Alouicious Bird', NULL, 'BSD', 'alpha');
