@@ -16,9 +16,10 @@ div#nav-main {
     div#nav-main div.inner {
         margin-bottom: 2px;
         height: 2.2em;
-        border: 1px solid #bbb;
+        //border: 1px solid #bbb;
         border-top: none;
-        background-color: #eef7d4;
+        background-color: #333333;
+        //background-color: #eef7d4;
         padding-left: 200px;
     }
     div#nav-main ul {
@@ -32,13 +33,13 @@ div#nav-main {
         }
             div#nav-main ul li a {
                 display: block;
-                border-right: 1px solid #fff;
+                //border-right: 1px solid #fff;
                 padding: 0.65em 1em 0.55em;
                 font-weight: bold;
-                color: #66a326;
+                color: #666666;
             }
             div#nav-main ul li a:hover, div#nav-main ul li.current a {
-                background-color: #9c0;
+                background-color: #FF4D00;
                 color: #fff;
                 text-decoration: none;
             }
@@ -47,7 +48,7 @@ div#nav-main {
 
 /* Toolbar */
 div#nav-main div#toolbar {
-    border: 1px solid #bbb;
+    //border: 1px solid #bbb;
     margin-bottom: 2px;
     padding: 0.6em;
     height: 1.1em;
