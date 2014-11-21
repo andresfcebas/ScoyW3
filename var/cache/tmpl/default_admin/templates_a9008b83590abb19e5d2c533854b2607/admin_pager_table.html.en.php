@@ -1,0 +1,4 @@
+<span class="pager">
+    <span class="results"><?php if ($this->options['strict'] || (isset($t) && method_exists($t, 'translate'))) echo htmlspecialchars($t->translate("displaying results","ucfirst"));?> <?php echo htmlspecialchars($t->aPagedData['from']);?> <?php if ($this->options['strict'] || (isset($t) && method_exists($t, 'translate'))) echo htmlspecialchars($t->translate("to"));?> <?php echo htmlspecialchars($t->aPagedData['to']);?> <?php if ($this->options['strict'] || (isset($t) && method_exists($t, 'translate'))) echo htmlspecialchars($t->translate("from a total of"));?> <?php echo htmlspecialchars($t->aPagedData['totalItems']);?></span>
+    <span class="pageLinks"><?php if ($this->options['strict'] || (isset($t) && method_exists($t, 'translate'))) echo htmlspecialchars($t->translate("page","ucfirst"));?> <?php echo $t->aPagedData['links'];?></span>
+</span>
